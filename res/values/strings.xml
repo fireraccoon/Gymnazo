@@ -4,5 +4,9 @@
     <string name="app_name">Gymnazo</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="creer_routine">Créer routine</string>
+    <string name="r_cup_rer_routine">Récupérer Routine</string>
+    <string name="performances">Performances</string>
+    <string name="reglages">Réglages</string>
 
 </resources>

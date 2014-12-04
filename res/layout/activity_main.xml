@@ -26,7 +26,7 @@
             android:layout_marginLeft="-8dip"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
-            android:text="Créer routine" />
+            android:text="@string/creer_routine" />
 
         <Button
             android:id="@+id/main_btnLoadRoutine"
@@ -34,25 +34,21 @@
             android:layout_height="match_parent"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
-            android:text="Récupérer Routine" />
+            android:text="@string/r_cup_rer_routine" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
         android:layout_weight="0.33"
-        android:layout_marginBottom="-8dip"
-        >
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-8dip" >
 
-        <Button
-            android:id="@+id/Button01"
-            android:layout_width="wrap_content"
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.50"
-            android:text="Button" 
-            android:layout_marginRight="-8dip"
-            android:layout_marginLeft="-8dip"
+            android:src="@drawable/bananee" 
             />
 
     </LinearLayout>
@@ -71,7 +67,7 @@
             android:layout_marginLeft="-8dip"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
-            android:text="Performances" />
+            android:text="@string/performances" />
 
         <Button
             android:id="@+id/main_btnSettings"
@@ -79,7 +75,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
-            android:text="Réglages" />
+            android:text="@string/reglages" />
 
     </LinearLayout>
 
