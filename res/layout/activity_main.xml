@@ -26,6 +26,8 @@
             android:layout_marginLeft="-8dip"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
+            android:drawableTop="@drawable/stopwatch_add"
+            android:paddingTop="30dp"
             android:text="@string/creer_routine" />
 
         <Button
@@ -34,6 +36,8 @@
             android:layout_height="match_parent"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
+            android:drawableTop="@drawable/stopwatch"
+            android:paddingTop="33dp"
             android:text="@string/r_cup_rer_routine" />
 
     </LinearLayout>
@@ -67,6 +71,8 @@
             android:layout_marginLeft="-8dip"
             android:layout_marginRight="-8dip"
             android:layout_weight="0.50"
+            android:drawableTop="@drawable/weight"
+            android:paddingTop="40dp"
             android:text="@string/performances" />
 
         <Button

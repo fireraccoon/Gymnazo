@@ -1,0 +1,19 @@
+Routine
+- id
+- nom
+
+
+RoutineExercice
+- id
+- idExercice
+- idRoutine
+
+
+Exercice
+- id
+
+Performance
+- id
+-
+ 
+
